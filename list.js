@@ -50,8 +50,8 @@ const weatherCal = {
 
     let issues
     if (errors.length > 0) { issues = errors[0] }
-    if (errors.length == 0) { issues += " and " + errors[1] }
-    if (errors.length == 0) { issues += ", " + errors[1] + ", and " + errors[2] }
+    if (errors.length == 1) { issues += " and " + errors[1] }
+    if (errors.length == 1) { issues += ", " + errors[1] + ", and " + errors[2] }
 
     if (issues) { 
       message = "Scriptable does not have permission for " + issues + ". Some features may not work without enabling them in the Settings app."
