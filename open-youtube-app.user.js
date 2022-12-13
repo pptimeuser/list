@@ -1,11 +1,9 @@
 // ==UserScript==
-// @name         Open YouTube App
-// @version      1.0.2
-// @author       asportnoy
+// @name         Open YouTube
 // @match        *://*.youtube.com/*
-// @downloadURL  https://gist.github.com/asportnoy/628b820184297f5fe296c1a5b79c8000/raw/open-youtube-app.user.js
-// @updateURL    https://gist.github.com/asportnoy/628b820184297f5fe296c1a5b79c8000/raw/open-youtube-app.user.js
-// @homepage     https://gist.github.com/asportnoy/628b820184297f5fe296c1a5b79c8000/
+// @downloadURL  https://raw.githubusercontent.com/pptimeuser/list/main/open-youtube-app.user.js
+// @updateURL    https://raw.githubusercontent.com/pptimeuser/list/main/open-youtube-app.user.js
+// @homepage     https://raw.githubusercontent.com/pptimeuser/list/main/open-youtube-app.user.js
 // ==/UserScript==
 if (window.location.pathname === '/redirect') return;
 window.location.href = `youtube://${window.location.pathname.slice(1)}${
